@@ -15,9 +15,15 @@
             "homepage": "https://github.com/knplabs/KnpGaufretteBundle/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/zyphlar/Gaufrette"
+        }
+    ],
     "require":      {
         "symfony/framework-bundle": "~2.0|~3.0",
-        "knplabs/gaufrette":        "~0.1.7|~0.2"
+        "knplabs/gaufrette":        "dev-sw"
     },
     "require-dev": {
         "symfony/yaml": "~2.0|~3.0",
